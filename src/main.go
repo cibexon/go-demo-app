@@ -41,7 +41,7 @@ func main() {
 
 	initOptions()
 
-	AppName := flag.String("name", "k8sdiy", "application name")
+	AppName := flag.String("name", "k8sdiy-AsciiArtify", "application name")
 	AppRole := flag.String("role", "api", "app role: api data ascii img ml5 iot")
 	AppPort := flag.String("port", "8080", "application port")
 	//AppPath := flag.String("path", "/static/", "path to serve static files")
